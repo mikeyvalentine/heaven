@@ -1,0 +1,74 @@
+* { padding: 0; margin: 0; }
+header h1 {
+    text-align: center;
+    font-style: oblique;
+    font-family: sans-serif;
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+}
+header a{
+    color: black;
+}
+header a:visited{
+    color: black;
+}
+header a:link{
+    text-decoration: none;
+}
+header a:hover{
+    color: black;
+}
+header nav{
+    top:50px;
+    position: fixed;
+    background-color: whitesmoke;
+    width: 100%;
+    z-index: 1;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    float: left;
+    text-align: center;
+    
+}
+nav div{
+    position:absolute;
+    width: 50%;
+    background-color: whitesmoke;
+}
+nav div:hover{
+    background-color: yellow;
+}
+body{
+    background-color:white;
+    height: 10000px;
+    position: relative;
+}
+.header{
+    width:100%;
+    height:1%;
+    background-color: white;
+    
+}
+.wrapper{
+    position:relative;
+    height: 100%;;
+    overflow: auto;
+    width:50%;
+    border: 4px double black;
+    left: 25%;
+}
+.writing{
+    text-align: center;
+    position: absolute;
+}
+.aboutphoto{
+    width: 100%;   
+}
